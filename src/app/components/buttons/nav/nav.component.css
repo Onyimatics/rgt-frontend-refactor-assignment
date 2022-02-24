@@ -1,9 +1,8 @@
 a {
   display: block;
-  color: white;
+  color: var(--primary-color);
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 a:hover, .active {
