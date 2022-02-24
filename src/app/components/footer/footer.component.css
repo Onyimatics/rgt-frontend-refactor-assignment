@@ -16,7 +16,7 @@
 }
 
 .site-footer h6 {
-  color: #fff;
+  color: var(--primary-color);
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 5px;
@@ -29,12 +29,10 @@
 
 .site-footer a:hover {
   color: #3366cc;
-  text-decoration: none;
 }
 
 .footer-links {
   padding-left: 0;
-  list-style: none
 }
 
 .footer-links li {
@@ -47,7 +45,6 @@
 
 .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
   color: #3366cc;
-  text-decoration: none;
 }
 
 .footer-links.inline li {
@@ -55,7 +52,7 @@
 }
 
 .site-footer .social-icons {
-  text-align: right
+  text-align: right;
 }
 
 .site-footer .social-icons a {
@@ -91,7 +88,6 @@
 .social-icons {
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none
 }
 
 .social-icons li {
@@ -124,7 +120,7 @@
 }
 
 .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
-  color: #fff;
+  color: var(--primary-color);
   background-color: #29aafe
 }
 
