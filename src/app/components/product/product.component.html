@@ -1,8 +1,8 @@
 
 <div class="card full">
-  <h1>{{product.title}}</h1>
-  <img [src]="product.img" alt="Denim Jeans" style="width:100%">
-  <p>{{product.desc}}</p>
-  <p class="price">${{product.price}}</p>
+  <h1>{{product?.title}}</h1>
+  <img [src]="product?.img" alt="Denim Jeans" class="full">
+  <p>{{product?.desc}}</p>
+  <p class="price">${{product?.price}}</p>
   <app-cart></app-cart>
 </div>
