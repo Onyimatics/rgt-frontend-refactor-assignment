@@ -1,4 +1,6 @@
-export const CompanyMembers = [
+import {CompanyMember} from '../models/company-member.interface';
+
+export const CompanyMembers: CompanyMember[] = [
   {
     img:"https://source.unsplash.com/200x200",
     imgAlt:"Jane",

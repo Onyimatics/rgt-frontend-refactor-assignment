@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {AboutService} from '../../services/about.service';
 import {Subscription} from 'rxjs';
+import {CompanyMember} from '../../models/company-member.interface';
 
 @Component({
   selector: 'app-about',
@@ -9,7 +10,7 @@ import {Subscription} from 'rxjs';
 })
 export class AboutComponent implements OnInit {
 
-public companyMembers: any[] = [];
+public companyMembers: CompanyMember[] = [];
 
 
   constructor(

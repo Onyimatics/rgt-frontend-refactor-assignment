@@ -8,7 +8,7 @@ export class ContactService {
 
   constructor() { }
 
-  getCountries():any[] {
+  getCountries():string[] {
     return Countries;
   }
 }

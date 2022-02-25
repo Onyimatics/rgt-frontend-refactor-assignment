@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {GalleryService} from '../../services/gallery.service';
+import {Gallery} from '../../models/gallery.interface';
 
 @Component({
   selector: 'app-gallery',
@@ -8,7 +9,7 @@ import {GalleryService} from '../../services/gallery.service';
 })
 export class GalleryComponent implements OnInit {
 
-  public images: any[] = [];
+  public images: Gallery[] = [];
 
   constructor(
     private galleryService: GalleryService,

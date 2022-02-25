@@ -1,4 +1,6 @@
-export const Products = [
+import {Product} from '../models/product.interface';
+
+export const Products: Product[] = [
   {
     title:"Tailored Jeans",
     price:19.99,

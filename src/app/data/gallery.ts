@@ -1,4 +1,6 @@
-export const Galleries = [
+import {Gallery} from '../models/gallery.interface';
+
+export const Galleries: Gallery[] = [
   {
     img:"https://source.unsplash.com/1000x800",
     desc:"No",
