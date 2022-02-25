@@ -11,7 +11,6 @@ import { AboutComponent } from './views/about/about.component';
 import { NewsComponent } from './views/news/news.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { ProductsComponent } from './components/products/products.component';
-import { ProductNoCartComponent } from './components/product-no-cart/product-no-cart.component';
 import { ProductComponent } from './components/product/product.component';
 import { NavComponent } from './components/buttons/nav/nav.component';
 import { SubmitComponent } from './components/buttons/submit/submit.component';
@@ -30,7 +29,6 @@ import { ContactBtnComponent } from './components/buttons/contact-btn/contact-bt
     NewsComponent,
     ContactComponent,
     ProductsComponent,
-    ProductNoCartComponent,
     ProductComponent,
     NavComponent,
     SubmitComponent,
