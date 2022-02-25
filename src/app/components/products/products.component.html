@@ -1,6 +1,5 @@
 <div class="row x-center">
   <div class="col" *ngFor="let product of products">
-    <app-product *ngIf="product.price" [product]="product"></app-product>
-    <app-product-no-cart *ngIf="!product.price" [product]="product"></app-product-no-cart>
+    <app-product [product]="product"></app-product>
   </div>
 </div>

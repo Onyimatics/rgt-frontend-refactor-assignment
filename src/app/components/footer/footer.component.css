@@ -6,15 +6,6 @@
   color: #737373;
 }
 
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5
-}
-
-.site-footer hr.small {
-  margin: 20px 0
-}
-
 .site-footer h6 {
   color: var(--primary-color);
   font-size: 16px;
@@ -27,84 +18,24 @@
   color: #737373;
 }
 
-.site-footer a:hover {
+.footer-links li a {
+  color: #737373;
+}
+.footer-links li a:hover {
   color: #3366cc;
 }
 
-.footer-links {
-  padding-left: 0;
-}
-
-.footer-links li {
-  display: block
-}
-
-.footer-links a {
-  color: #737373
-}
-
-.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+*.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
   color: #3366cc;
-}
-
-.footer-links.inline li {
-  display: inline-block
-}
-
-.site-footer .social-icons {
-  text-align: right;
-}
-
-.site-footer .social-icons a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-  background-color: #33353d
-}
-
-.copyright-text {
-  margin: 0
-}
-
-@media (max-width:991px) {
-  .site-footer [class^=col-] {
-    margin-bottom: 30px
-  }
-}
-
-@media (max-width:767px) {
-  .site-footer {
-    padding-bottom: 0
-  }
-
-  .site-footer .copyright-text, .site-footer .social-icons {
-    text-align: center
-  }
 }
 
 .social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
+  display: flex;
 }
-
-.social-icons li {
-  display: inline-block;
-  margin-bottom: 4px
-}
-
-.social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #96a2b2;
-  font-weight: 700;
-  font-size: 13px
-}
-
 .social-icons a {
-  background-color: #eceeef;
+  background-color: #33353d;
   color: #818a91;
   font-size: 16px;
   display: inline-block;
@@ -119,16 +50,13 @@
   transition: all .2s linear
 }
 
+.copyright-text {
+  margin: 0
+}
+
 .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
   color: var(--primary-color);
   background-color: #29aafe
-}
-
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px
 }
 
 .social-icons a.facebook:hover {
@@ -148,9 +76,11 @@
 }
 
 @media (max-width:767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600
+  .site-footer {
+    padding-bottom: 0
+  }
+
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center
   }
 }

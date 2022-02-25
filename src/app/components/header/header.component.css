@@ -13,3 +13,9 @@ li a {
 li a:hover, .active {
   background-color: #111;
 }
+
+@media (max-width:767px) {
+  ul{
+    flex-direction: row;
+  }
+}
