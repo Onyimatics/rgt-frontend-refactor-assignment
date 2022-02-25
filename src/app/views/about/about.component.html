@@ -7,33 +7,13 @@
 <h2 style="text-align:center">Our Team</h2>
 <div class="row x-center">
   <div class="col c8">
-    <div class="card">
-      <img src="https://source.unsplash.com/200x200" alt="Jane" style="width:100%">
+    <div class="card" *ngFor="let companyMember of companyMembers">
+      <img class="full" [src]="companyMember?.img" [alt]="companyMember?.imgAlt">
       <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <app-contact-btn></app-contact-btn>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/200x201" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <app-contact-btn></app-contact-btn>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://source.unsplash.com/200x202" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <h2>{{companyMember?.title}}</h2>
+        <p class="title">{{companyMember?.title}}</p>
+        <p>{{companyMember?.desc}}</p>
+        <p>{{companyMember?.email}}</p>
         <app-contact-btn></app-contact-btn>
       </div>
     </div>
