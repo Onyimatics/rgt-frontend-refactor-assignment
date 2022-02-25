@@ -1,18 +1,6 @@
 <div class="container">
-  <div class="box">
-    <img src="https://source.unsplash.com/1000x800">
-    <span>No</span>
-  </div>
-  <div class="box">
-    <img src="https://source.unsplash.com/1000x802">
-    <span>Repetitive</span>
-  </div>
-  <div class="box">
-    <img src="https://source.unsplash.com/1000x804">
-    <span>Code</span>
-  </div>
-  <div class="box">
-    <img src="https://source.unsplash.com/1000x806">
-    <span>Allowed</span>
+  <div class="box" *ngFor="let image of images">
+    <img [src]="image?.img" alt="image">
+    <span>{{image?.desc}}</span>
   </div>
 </div>
